@@ -93,7 +93,6 @@ $(document).ready(function() {
                    
                                 <li><a href="#tab2">logotipi</a></li>            
                                  <li><a href="#tab3">prospekti/plakati</a></li> 
-                                  <li><a href="#tab4">plakati</a></li> 
                                    <li><a href="#tab5">kalendari</a></li>
                                    <li><a href="#tab6">bilbordi</a></li>
                                    <li><a href="#tab7">3D promo predmeti</a></li>
@@ -135,14 +134,6 @@ $(document).ready(function() {
                                                
                             			</div>	
                                         	
-                                            	 <div id="tab4" class="tab_content">
-                               					<div style="margin-left:40px;" class="galerija">   
-                                             	<?	view_image(70,70,'plakati') ;   ?>       
-                                             </div>
-                                                    
-                                                    
-                                                    
-                            					</div>	
                                         	
                                             		 <div id="tab5" class="tab_content">
                                            				<div style="margin-left:80px;" class="galerija">   
