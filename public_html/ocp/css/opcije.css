@@ -1,0 +1,131 @@
+/*DIV PLAVI NASTAVAK MENIJA pocetak*/
+.ocp_plavi { width: 100%; height: 4px; margin: 0px; padding: 0px; border-width: 0px; background-color: #DCE5EA; border-bottom: 1px solid #B39886;}
+/*DIV PLAVI NASTAVAK MENIJA kraj*/
+
+/*NASLOV pocetak*/
+.ocp_naslov_table { width: 100%; border-width: 0px; background-color: #bfbfbf; border-collapse: collapse;}
+.ocp_naslov_td { padding:8px; font-family: Verdana, Arial, Helvetica, sans-serif; color: #666; font-size: 13px; font-weight: bold; border-bottom: 1px solid #a3a3a3; background: #eaeaea url(../img/opsti/opcije/bg/bg_opcije_naslov.gif) repeat-x;}
+.ocp_subforma_naslov_table { width: 100%; border-width: 0px; border-top: 1px solid #999; background-color: #999; border-collapse: collapse;}
+.ocp_subforma_naslov_td { padding:6px; font-family: Verdana, Arial, Helvetica, sans-serif; color: #c42e00; font-size: 11px; font-weight: bold; border-bottom: 1px solid #a3a3a3; background: #eaeaea url(../img/opsti/opcije/bg/bg_opcije_naslov.gif) repeat-x;} 
+/*NASLOV kraj*/
+
+/*INFO pocetak*/
+.ocp_info_table { width: 100%; border-width: 0px; border-bottom: 1px solid #676767; border-collapse: collapse;}
+.ocp_info_td { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #333; font-weight: normal; padding:6px; padding-top: 8px; padding-bottom: 8px; background-image: url("../img/opsti/opcije/bg/bg_info.gif"); background-repeat:repeat-x;}
+.ocp_info_td_vrednost  { font-size: 11px; color: #666; font-weight: normal;}
+.ocp_info_bold  { color: #333; font-weight: bold;}
+/*INFO kraj*/
+
+/*NASLOV GRUPE pocetak*/
+.ocp_naslovgrupe_table { width: 100%; border-width: 0px; border-bottom: 1px solid #B39886; border-top: 1px solid #FAFAC8; border-right: 1px solid #D5C5AC; background-color: #F7F2D2; border-collapse: collapse;}
+.ocp_naslovgrupe_td_a { font-family: Verdana, Arial, Helvetica, sans-serif; color: #333; font-size: 9px; font-weight: normal; padding:5px;}
+.ocp_naslovgrupe_td_b { padding:5px; text-align: right; white-space: nowrap;}
+a.ocp_grupa_zatvori { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #666; text-decoration: none;}
+a.ocp_grupa_zatvori:hover { color: #000000;}
+/*NASLOV GRUPE kraj*/
+
+/*OPCIJE pocetak*/
+.ocp_opcije_table { width: 100%; background-image: url("../img/opsti/opcije/bg/bg_main.gif"); border-right: 1px solid #DFDCDC; border-bottom: 1px solid #999999; border-collapse: collapse;}
+.ocp_opcije_table_univ { width: 100%; border-collapse: collapse; }
+.ocp_opcije_td_header {height: 30px; padding: 2px 5px; background-color: #F3F3F3; background-image: url("../img/opsti/opcije/bg/bg_opcije_header.gif"); background-repeat:repeat-x; margin:0px; border-bottom: 1px solid #A6A4A4; border-top: 1px solid  #B3B1B1;}
+.ocp_opcije_td {padding: 3px 5px 3px 5px; background-color: #FAFAFA; border-left: 1px solid #DFDCDC; border-top: 1px solid #DFDCDC; }
+.ocp_opcije_td_forma {padding: 3px 5px 3px 5px; background-color: #FBF8EC; background-image: url("../img/opsti/opcije/bg/bg_opcije_forma.gif"); background-repeat:repeat-x; padding: 5px 5px 3px 5px; border-left: 1px solid #DFDCDC; border-top: 1px solid #DFDCDC; }
+
+.ocp_opcije_td_ikona { width: 40px; vertical-align:top; text-align:center; background-image: url("../img/opsti/opcije/bg/bg_opcije_ikona_1.gif"); background-repeat: repeat-x; margin: 1px; border-right: 0px solid #DFDCDC; padding: 7px 8px 0px 8px; border-top: 1px solid #DFDCDC;}
+
+.ocp_opcije_td_grupa {padding: 3px 5px 3px 5px; background-color: #FBF8EC; background-image: url("../img/opsti/opcije/bg/bg_opcije_forma.gif"); background-repeat:repeat-x; padding: 5px 5px 3px 5px; border-left: 1px solid #DFDCDC; border-top: 1px solid #DFDCDC; border-right: 1px solid #DFDCDC; }
+.ocp_opcije_td_grupe { vertical-align:top; border-right: 0px solid #DFDCDC; padding: 0px; border-top: 1px solid #DFDCDC; background-color: #DAEAF2;}
+.ocp_opcije_selekt_grupa { font-family: Verdana, Arial, Georgia, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #C42E00; margin: 5px 0px 5px 0px;}
+
+.ocp_opcije_td_naslov { padding: 8px; padding-bottom: 6px; font-family: Arial, Verdana, Georgia, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #665F48; background-color: #DAEAF2; margin: 1px; border-top: 1px solid #DFDCDC; border-right: 1px solid #DFDCDC; border-bottom: 1px solid #CFC7C0; }
+
+.ocp_opcije_td_naslov_2 {font-family: "Trebuchet MS", Verdana, Arial, Georgia, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #665F48;}
+
+.ocp_opcije_tekst1 {font-family: Verdana, Arial, Georgia, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #666666; line-height: 12px; }
+.ocp_opcije_tekst2 {font-family: Verdana, Arial, Georgia, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #333333;}
+.ocp_opcije_tekst3 {font-family: "Trebuchet MS", Verdana, Arial, Georgia, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #333333;}
+.ocp_opcije_tekst4 {font-family: Verdana, Arial, Georgia, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #666; padding: 6px;}
+.ocp_opcije_dugme {font-family: Verdana, Arial, Georgia, Helvetica, sans-serif; font-size: 9px; background-repeat: repeat; font-weight: normal; color: #000000; padding-bottom:2px; background-image: url(../img/opsti/kontrole/dugme_bg.gif); white-space: nowrap; margin: 3px;}
+
+.ocp_opcije_obavezno { color: #F53A00; }
+/*OPCIJE kraj*/
+
+/*FORME pocetak*/ 
+.ocp_forma { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #333333; border: 1px solid #999999;}
+
+.ocp_uni_table { width:100%; margin: 0px; padding: 0px; border-width:0px; border-collapse: collapse;}
+.ocp_dugmici_td_levi {padding: 0px 6px 0px 0px;}
+.ocp_dugmici_td_desni_1 { width:20px; padding: 0px 0px 0px 2px; text-align: right;}
+.ocp_dugmici_td_desni_2 { width:47px; padding: 0px 0px 0px 2px; text-align: right;}
+.ocp_dugmici_td_desni_3 { width:70px; padding: 0px 0px 0px 2px; text-align: right;}
+.ocp_dugmici_td_desni_4 { width:93px; padding: 0px 0px 0px 2px; text-align: right;}
+
+.ocp_dugme {margin-left: 3px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; line-height:11px; color: #333; background: #ededed url(../img/opsti/opcije/bg/bg_dugme.gif) repeat-x; width: 80px; height: 30px; border: 1px solid #999999;}
+
+.ocp_dugme_malo {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold; color: #585858; background: #ededed url(../img/opsti/opcije/bg/bg_dugme.gif) repeat-x; height: 20px; border: 1px solid #808080;}
+/*FORME kraj*/
+
+/*KONTROLE I MALE IKONE pocetak*/ 
+.ocp_kontrola { margin: 1px 0px 1px 3px; vertical-align: middle; border-width: 0px;}
+.ocp_mala_ikona { padding-left: 4px; padding-right: 4px; vertical-align: middle; border-width: 0px;}
+/*KONTROLE I MALE IKONE kraj*/
+
+/*PODMENI pocetak*/
+.ocp_blokovi_body { margin: 0px; padding: 0px; background-color: #7B7B7B;}
+
+/*DIVOVI KOJI DRZE RAZLICITE BACKGROUNDE pocetak*/
+#ocp_blok_menu_1 {width: 100%; margin: 0px; padding: 3px 0px 2px 0px; border-width: 0px; background-image: url(../img/gornji_2/bg/blokovi_bg.gif);}
+#ocp_blok_menu_2 {width: 100%; margin: 0px; padding: 0px; border-width: 0px; background-color: #F3F3F3; background-image: url(../img/gornji_2/bg/blokovi_bg_2.gif); background-repeat:repeat-x; }
+/*DIVOVI KOJI DRZE RAZLICITE BACKGROUNDE kraj*/
+
+/*BLOKOVI GRUPA pocetak*/
+.ocp_blokovi_dugme {padding: 10px; border-width: 0px; border-style: solid; border-collapse: collapse;}
+
+.ocp_blokovi_table_0 {width:200px; padding: 0px; margin: 0px 0px 0px 0px; border-width: 0px; border-collapse: collapse;}
+.ocp_blokovi_table { width: 100%; border-width: 0px; border-collapse: collapse; padding: 5px;}
+.ocp_blokovi_table_2 { border-width: 0px; border-bottom: 1px solid #676767; border-collapse: collapse; border-bottom: 1px solid #000000;}
+
+.ocp_blokovi_td {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #333333; font-weight: normal; padding:2px; background-image: url(../img/gornji_2/bg/blokovi_bg.gif); background-repeat:repeat-x;}
+
+.ocp_blokovi_td_tekst {font-family: Trebuchet MS, Verdana, Arial, Georgia, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #666666; line-height: 12px;}
+.ocp_blokovi_td_tekst_2 {font-family: Verdana, Arial, Georgia, Helvetica, sans-serif; font-size: 9px; font-weight: normal; color: #000000; white-space: nowrap; }
+.ocp_blokovi_td_tekst_3 {font-family: Trebuchet MS, Verdana, Arial, Georgia, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #000000; white-space: nowrap; }
+
+.ocp_blokovi_ikona { margin-left: 4px; margin-right: 1px; }
+.ocp_blokovi_ikona_velika { margin-left: 4px; margin-right: 4px;}
+.ocp_blokovi_crtka { margin: 0px 0px 0px 0px; }
+
+/*NAPREDNI EDIT*/
+.ocp_napred_edit_uputstvo {font-family: Verdana, Arial, Georgia, Helvetica, sans-serif; font-size: 20px; font-weight: bold; color: #000000; white-space: nowrap; }
+.ocp_napred_edit_dugme { margin: 0px 1px 3px 1px; }
+.ocp_napred_edit_crtka { margin: 0px 4px 6px 4px; }
+.ocp_napred_edit_textarea { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333333; width:100%; height:300px; padding:10px; margin:0px;}
+.ocp_napred_edit_skraceni {height: 28px; padding: 2px; background-image: url(../img/kontrole/napredni_edit/bg_skraceni.gif); background-repeat:repeat-x; margin:0px;}
+/*NAPREDNI EDIT KRAJ/
+
+
+/*PODMENI kraj*/
+
+
+/*NOVO*/
+a.polja {display: block; text-align: center; width: 14%; float: left; padding: 8px; padding-top: 4px; padding-bottom: 2px; margin-top: 5px;  font-family: "Trebuchet MS", Verdana, Arial, Georgia, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #777461; border: 1px solid #bbbbb2; text-decoration: none; background-color: #dfdfdf; white-space: nowrap;}
+a.polja:hover {background-color: #e3f4fc;}
+a.sel { margin-top: 2px; padding: 5px; border: 1px solid #dfdcdc; border-bottom: 0; color: #4d4c3f; border: 1px solid #bbbbb2; border-bottom: 0; background-color: #fafafa; cursor: default;}
+
+div#ocp_uredi {
+	display: block; text-align: left; padding: 5px; padding-left: 22px; margin-top: 5px; background: #fbf7e9 url('../img/opsti/kontrole/edit_bg.gif') no-repeat 5px 5px; border: 1px solid #b2b2b2; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #0088CC; text-decoration: none;
+}
+div#ocp_uredi a {font-size: 10px; font-weight: bold; color: #0088CC; text-decoration: none;}
+div#ocp_uredi a:hover {color: #FF882C; text-decoration: underline;}
+
+.qed_form { margin-left:10px; padding:10px; font-size:11px;  }
+	.qed_form fieldset { margin-left:10px; padding:10px; padding-bottom:5px;}
+	.qed_form legend { font-weight:bold; padding-bottom:5px;}
+	.qed_form textarea { margin:0; margin-left:-10px; margin-top:3px; padding:2px; font-size:11px; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+	 input.qed_text { margin-left:-10px; margin-top:3px; margin-bottom:5px; font-size:11px; font-family: Verdana, Arial, Helvetica, sans-serif;}
+	 .cancel_button { float:left; }
+	 .qed_form .qed_submit { width: 100%; height: 40px; text-align: center;}
+
+#ocp_main_edit_bloka_table img {display: inline;} /* osigurava ikonice u OCP-u, u slucaju da sve slike na sajtu imaju display block */
+#ocp_main_edit_bloka_table input {line-height: normal;} /* osigurac */

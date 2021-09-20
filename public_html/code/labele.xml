@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<jezici>
+	<jezik id="1" skracenica="S">
+		<skracenica text="S"/>
+		<query_id text="2"/>
+		<query_headline text="&#x161;&#x160;&#x17E;&#x17D;"/>
+		<query_start text="&#x430;&#x431;&#x431;&#x433;&#x434;"/>
+		<mail_headline text=""/>
+		<send_to_friend_headline text=""/>
+		<home_headline text=""/>
+		<map_id text="4"/>
+		<map_headline text=""/>
+		<print_page_headline text=""/>
+		<homepage_name text=""/>
+		<copyright text="&#x10D;&#x107;&#x111;&#x10C;&#x106;&#x110;tekst"/>
+		<pretraga_id text="3"/>
+		<engsrp_id text="4"/>
+	</jezik>
+</jezici>

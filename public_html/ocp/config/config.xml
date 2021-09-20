@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ocpcfg>
+	<first_open>objectManager</first_open>
+	<disable></disable>
+	<allowed_delete_files>1</allowed_delete_files>
+</ocpcfg>
+<!--possible values for first_open/disable: objectManager,siteManager,reports-->
+<!--possible values for allowed_delete_files: 0 (false)/1 (true)-->

@@ -1,0 +1,13 @@
+<controls>
+	<shortstrings>textBox</shortstrings>
+	<longstrings>textBox</longstrings>
+	<dates validate="validate_dates">textDate</dates>
+	<bits>check</bits>
+	<floats>textBox</floats>
+	<ints validate="validate_ints">textBox</ints>
+	<texts validate="change_nl2br">html-editor</texts>
+	<radios>textBox</radios>
+	<selects>textBox</selects>
+	<objects>complex</objects>
+	<uploads>upload</uploads>
+</controls>

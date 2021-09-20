@@ -1,0 +1,356 @@
+/*  GENERAL  */
+.clear {
+	clear:both;
+	margin:0;
+	padding:0;
+	height:0;
+	line-height:0;
+	font-size:0;
+}
+body, html {
+	height:100%;
+	margin:0;
+	padding:0
+}
+a img, img {
+	border:none
+}
+a:hover {
+	text-decoration:none
+}
+a {
+	text-decoration:underline;
+	color:#469fdb
+}
+ul, ol, p {
+	margin:0 0 16px;
+	padding:0
+}
+
+form {
+display:block;
+margin:0;
+padding:0;
+}
+
+/* ------------------- */
+
+body {
+	color:#282425;
+	background:#ddd;
+	font:15px/19px Gotham, arial, tahoma;
+}
+
+section {
+display:block;
+width:960px;
+margin:0 auto;
+}
+
+.home header {
+display:block;
+height:141px;
+width:960px;
+background:transparent url('../gfx/homeHeader.jpg') no-repeat center top;
+}
+
+.inner header {
+display:block;
+height:149px;
+width:960px;
+background:transparent url('../gfx/innerHeader.jpg') no-repeat center top;
+}
+
+.home header ul, .inner header ul {
+display:block;
+float:right;
+margin:123px 0 0;
+padding:0;
+list-style:none;
+}
+
+.home header ul li, .inner header ul li  {
+display:block;
+float:left;
+margin:0 66px 0 0;
+font:bold 11px/12px verdana,arial,tahoma;
+color:#fff;
+text-transform:uppercase;
+}
+
+.home header ul li a, .inner header ul li a {
+text-decoration:none;
+color:#fff;
+}
+
+.home header h1 {
+position:absolute;
+left:auto;
+top:0;
+width:238px;
+height:274px;
+margin:32px 0 0 34px;
+background:transparent url('../gfx/logoHome.png') no-repeat center top;
+}
+
+.home header h1 a {
+display:block;
+width:238px;
+height:274px;
+text-indent:-9000px;
+}
+
+
+.home header ul li a:hover, .inner header ul li a:hover  {
+color:#adcee2;
+}
+
+.headerUndrline {
+height:5px;
+background:transparent url('../gfx/headerStripe.png') repeat-x left top;
+}
+
+.home .container {
+min-height:425px;
+height:auto !important;
+height:425px;
+padding:144px 0 0 144px;
+background:#6d99b4 url('../gfx/homeContainer.png') repeat-y center top;
+}
+
+.inner .container {
+min-height:375px;
+height:auto !important;
+height:375px;
+/*padding:153px 0 62px 177px;*/
+padding:93px 0 62px 117px;
+background:#fff url('../gfx/innerContainer.png') repeat-y center top;
+}
+
+.inner header h1 {
+position:absolute;
+left:auto;
+top:0;
+width:494px;
+height:131px;
+margin:72px 0 0 97px;
+background:transparent url('../gfx/logoInner.png') no-repeat center top;
+}
+
+.inner header h1 a {
+display:block;
+width:131px;
+height:131px;
+text-indent:-9000px;
+}
+
+.inner header h1 p {
+width:131px;
+height:106px;
+text-align:center;
+color:#fff;
+margin:0;
+padding:0;
+font:bold 50px/106px verdana,arial,tahoma;
+text-shadow:0 0 10px rgba(0,0,0,0.6);
+}
+
+.transBox .entry {
+width:361px;
+float:left;
+/*margin:0 32px -120px 0;*/
+margin:0 2px 0 0;
+position:relative;
+}
+
+.transBox .entry h2 {
+color:#004278;
+margin:0 0 22px;
+font:18px/19px verdana,arial,tahoma;
+padding:0
+}
+
+.transBox .entry.srb h2 {padding:0 0 0 26px;}
+.transBox .entry.eng h2 {padding:0 0 0 15px;} 
+.transBox .entry.mid {float: left;width: 25px;margin: 36px 10px 0;padding:0;}
+
+.transBox .entry h2 img {
+display:block;
+float:left;
+margin:-4px 8px 0 0;
+}
+
+.transBox .entry input {
+display:block;
+clear:left;
+width:321px;
+color:#231f20;
+border:none;
+/*font:16px/17px verdana,arial,tahoma;
+padding:11px 0 10px 42px;*/
+font:14px/15px verdana,arial,tahoma;
+padding:11px 0 10px 42px;
+background:#fff url('../gfx/entry.png') no-repeat right top;
+}
+
+p.translate {
+clear:both;
+margin:0;
+}
+
+p.translate input {
+border:none;
+background:none;
+display:block;
+float:right;
+color:#004278;
+padding:3px;
+margin:0 34px 0 0;
+cursor:pointer;
+font:bold 19px/21px verdana,arial,tahoma;
+}
+.submit {
+width: 65px;
+height:26px;
+background: url('../gfx/prevedi.png') no-repeat right top !important;
+margin-right:44px !important;
+
+}
+
+p.translate input:hover {color:#fff;}
+
+.transBar {
+clear:both;
+padding:30px 0;
+overflow:hidden;
+} 
+
+.transBar p {
+float:left;
+width:131px;
+padding:0 5px;
+margin:0;
+font:bold 14px/42px verdana,arial,tahoma;
+vertical-align:middle;
+color:#fff;
+text-shadow:1px 2px 2px #222;
+}
+
+.transBar.se p {
+background:transparent url('../gfx/plateBlue.png') no-repeat left top;
+}
+
+.transBar.es p {
+background:transparent url('../gfx/plateRed.png') no-repeat left top;
+}
+
+.transBar div {
+width:637px;
+height:42px;
+float:left;
+font:bold 17px/42px verdana,arial,tahoma;
+vertical-align:middle;
+text-align:center;
+margin:0 0 0 1px;
+letter-spacing:1px;
+background:transparent url('../gfx/wide.png') no-repeat left top;
+}
+
+.transBar div a {text-decoration:none;}
+
+.abeceda a {color:#005d98;}
+.abeceda a:hover {color:#2987c3;}
+
+.alphabet a {color:#e11b22;}
+.alphabet a:hover {color:#f54a50;}
+
+footer {
+height:61px;
+width:960px;
+margin:0 auto 20px;
+background:transparent url('../gfx/footer.png') repeat-x left top;
+}
+
+footer p {
+float:right;
+color:#5382a0;
+font:bold 17px/18px verdana,arial,tahoma;
+margin:22px 40px 0 0;
+}
+
+footer p a {color:#5382a0;text-decoration:none;}
+
+footer.inner {
+height:56px;
+width:960px;
+background:transparent url('../gfx/footer.png') repeat-x left -4px;
+}
+
+
+.words ul {
+list-style:none;
+float:left;
+/*width:220px;*/
+width:230px;
+padding:0 10px 0 0;
+}
+
+.words ul li {
+display:block;
+/*margin:0 0 5px;*/
+margin:0 0 10px;
+padding:0;
+font:14px/16px verdana,arial,tahoma;
+}
+
+.entry.mid a {
+height: 42px;
+width: 24px;
+display: block;
+background: transparent url('../gfx/strelice.png') no-repeat left top;
+
+}
+
+.entry.mid a:hover {
+background: transparent url('../gfx/strelice.png') no-repeat left bottom;
+
+}
+
+.transBox .entry textarea {
+display:block;
+clear:left;
+width:321px;
+color:#231f20;
+border:none;
+/*font:16px/17px verdana,arial,tahoma;
+padding:11px 0 10px 42px;*/
+font:14px/15px verdana,arial,tahoma;
+padding:11px 0 10px 42px;
+height: 20px;
+resize: none;
+outline: none;
+overflow:hidden;
+}
+
+#flash_container {
+width: 238px;
+height:274px;
+margin:32px 0 0 34px;
+position:absolute;
+left:auto;
+top:0;
+}
+
+#logo img {
+	position: relative;
+}
+
+#logo img:after {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 10px;
+	height: 10px;
+	background: yellow
+}

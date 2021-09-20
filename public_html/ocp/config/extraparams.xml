@@ -1,0 +1,25 @@
+<extraParams>
+	<type name="verzija"/>
+	<type name="sekcija"/>
+	<type name="stranica">
+		<srpskeReci label="Srpsko - Engleski" inputType="check" default="1"/>
+	</type>
+</extraParams>
+<!--textBox, textDate, check, labela, intLink, file, html-editor, color, select, radio, complex, Image position, foreignKey, versionList, sectionList, pageList -->
+
+<!-- change_nl2br ?
+	 is_necessary +
+	 validate_dates +
+	 validate_datetimes ...
+	 validate_dimension ...
+	 validate_double_quotes ?
+	 validate_email +
+	 validate_html_text ?
+	 validate_ints - 
+-->
+
+<!-- <foreignkey label="foreignkey" inputType="foreignKey"/> -->
+
+<!-- Externi linkovi na objektima SM-a
+	<extern_link label="Extern link" inputType="intLink" root="/upload"/> 
+-->

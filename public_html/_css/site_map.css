@@ -1,0 +1,57 @@
+#map ul
+{
+	list-style:				none;
+	padding:				0px;
+	margin:					0px;
+}
+
+#map ul ul
+{
+	padding-left:			15px;
+}
+
+#map ul li
+{
+	padding-left:			18px;
+}
+
+#map .section
+{
+	background:				url('/images/basic/icon_section.gif') 0px 0px no-repeat;
+	font-weight:			bold;
+}
+
+#map .section_with_childs
+{
+	background:				url('/images/basic/icon_section_with_childs.gif') 0px 4px no-repeat;
+	font-weight:			bold;
+}
+
+#map .page
+{
+	background:				url('/images/basic/icon_page.gif') 0px 5px no-repeat;
+}
+
+#map ul li.section a, #map ul li.section a:visited, #map ul li.section_with_childs a, #map ul li.section_with_childs a:visited
+{
+	font-weight:			bold;
+	color:					#333;
+	text-decoration:		none;
+}
+
+#map ul li.section a:hover, #map ul li.section_with_childs a:hover
+{
+	text-decoration:		underline;
+}
+
+#map ul li a, #map ul li a:visited, #map ul li.page a, #map ul li.page a:visited
+{
+	font-weight:			normal;
+	color:					#ff6600;
+	text-decoration:		none;
+}
+
+#map ul li a:hover, #map ul li.page a:hover
+{
+	text-decoration:		underline;
+}

@@ -1,0 +1,520 @@
+/*Css HTML by Milorad Markovic www.milorad.markovic.com*/
+
+/*	
+@font-face {
+    font-family: "Humanist 521";
+    src: url('/font/Hum521n.ttf');
+}
+*/
+body {
+	margin:0px;
+	padding:0px;
+	background-color:#141112;
+	font-family:Arial, Helvetica, sans-serif;
+	
+	}
+		
+a {
+	outline:none;
+	text-decoration:none;
+	color:#fff;
+	}
+
+a img {
+		border:none;
+	}
+	
+.clear {
+	clear:both;
+	}
+	
+
+
+
+	
+	
+	
+h1 {
+	margin:0px;
+	padding:0px;
+	color:#fff;
+	font-size:18px;
+	font-weight:normal;
+	}	
+
+
+
+	
+#wrapper {
+	width:1000px;
+	height:auto;
+	min-height:600px;
+	border:solid 1px #fff;
+	margin:50px auto;
+	padding:10px 30px 50px 0px;
+	position:relative;
+	}
+	
+	
+#header	{
+	width:100%;
+	height:150px;
+	}
+	
+#logo {
+	margin:53px 0px 0px 90px;
+}
+		
+.logo_index {
+	width:121px;
+	margin:270px 0px 0px 120px;
+	float:left;
+	position: relative;
+	height: 380px!important;
+}
+
+
+.logo_index:after {
+	content: '';
+    display: block;
+    position: absolute;
+    bottom: 230px;
+    left: calc(50% - 5px);
+    width: 10px;
+    height: 10px;
+    background: #f7931e;
+    -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+	animation-name: bounce;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0%   { bottom: 200px; }
+    50%  { bottom:220px; }
+    100% { bottom: 200px; }
+}
+
+.logo_index a {
+    height: 100%;
+}
+	
+/*Jquery tabs*/
+.tabs a {
+	font-size:14px;
+	}
+
+.tabs a:hover {
+	color:#afd583;
+	}
+
+ul.tabs {
+	margin-left:20px;
+	margin-top:0px;
+	padding: 0;
+
+	list-style: none;
+	height: auto; /*--Set height of tabs--*/
+	width: 128px;
+	
+
+
+}
+ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 20px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 20px; /*--Vertically aligns the text within the tab--*/
+	
+	margin-left:-1px;
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	width:226px;
+	position: relative;
+
+
+}
+.link{
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 20px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 20px; /*--Vertically aligns the text within the tab--*/
+	
+	margin-left:-1px;
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	width:226px;
+	position: relative;
+	
+	
+}
+
+.link a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	font-size: 14px;
+	font-style:inherit;
+	padding: 0px 0px;
+	outline: none;
+	color:#fff;}
+	
+.link a:hover {
+	color:#afd583;}	
+
+ul.tabs li a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	font-size: 14px;
+	font-style:inherit;
+	padding: 0px 0px;
+	outline: none;
+	color:#fff;
+		
+}
+ul.tabs li a:hover {
+	color:#afd583;} 
+
+
+html ul.tabs li.active, html ul.tabs li.active   { /*--Makes sure that the active tab does not listen to the hover properties--*/
+	
+		color:#000;
+	 /*--Makes the active tab look like it's connected with its content--*/
+}
+
+
+html ul.tabs li.active a {
+	color:#afd583;}
+
+.tab_container {
+	
+
+	overflow: hidden;
+	margin-left:5px;
+	padding:0px 0px;
+	float: left; 
+	width: auto;
+		
+	}
+.tab_content {
+	position:absolute;
+		bottom:50px;
+		right:40px;
+	padding:10px;
+	width:700px;
+	height:300px;
+	float:left;
+	
+	
+
+	
+}
+
+.tab_content .tabs {
+	margin-top:135px;
+	min-width:600px;
+	margin-left:80px;
+	position:absolute;
+	bottom:135px;	
+
+	float:left;
+		clear:none;}
+
+
+.tab_content .tabs  li {
+	width:115px;
+
+	float:left;
+	clear:none;
+	display:inline;
+	text-align:center;
+	}
+
+
+.tab_content  h1 {
+	position:absolute;
+	margin:50px 0px 0px -50px;
+		left:50px;
+		background-image:none;
+}
+
+
+.tab_content img {
+	z-index:100;}
+
+/*drop down*/
+
+#content {
+	width:100%;
+	padding-left:110px;
+	
+	}
+	
+#content h1 {
+		width:150px;
+	height:20px;
+
+	background-image:URL('/design/blt.png');
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:10px;
+	margin-left:10px;
+	margin-bottom:0px;
+	float:left;
+	clear:right;
+	
+	}
+	
+	
+#js {
+	width:435px;
+	height:129px;
+	background-image:URL('/design/bg_logo.png');
+	background-repeat:no-repeat;
+	position:absolute;
+		top:150px;
+		right:165px;
+	
+		
+		}
+		
+/*#js:hover {
+	background-image:URL('/design/hov.png');}
+	*/	
+#js img {
+
+	}
+	
+	
+/*Galerija slajder*/
+
+
+		#screen{
+			
+		}			
+			#screen li{
+				float:left;
+				list-style:none;
+			}
+			#screen .jq-ss-crop{
+				margin:5px 5px;
+			
+				float:left;				
+			}
+				#left{
+					position:absolute;
+					top:220px;
+					left:40px;
+					
+					display:block;
+					text-decoration:none;
+					
+				}
+				
+			#right{
+				position:absolute;
+					top:220px;
+					right:-10px;
+					
+					display:block;
+					text-decoration:none;}
+				
+				
+			#view{
+				margin-top:160px;
+				margin-left:20px;
+				width:630px;
+				float:left;
+				height:110px;
+				overflow:hidden;
+				background-color:black;
+				position:relative;
+			}
+				#images{
+					width:3818px !important;
+					width:3822px;
+					padding:0;
+				}
+					#images li img{
+						border:0;
+					}
+					
+					
+					
+					
+/* kontakt forma*/
+
+#kontakt {
+	width:600px;
+	margin-top:65px;
+	margin-left:70px;
+
+	}
+	
+#kontakt p {
+	float:left;
+	color:#fff;
+	padding:0px;
+	margin:0px;
+	clear:both;
+	font-size:12px;
+	margin-left:5px;}
+	
+#inputi {
+	width:200px;
+
+	float:left;}
+	
+.input {
+	width:190px;
+	height:15px;
+	border:solid 1px #49474a;
+	background-color:transparent;
+	float:left;
+	clear:both;
+	color:#49474a;
+	margin:5px;
+	}
+	
+#textarea {
+	width:350px;
+	float:right;
+	}
+	
+.textarea {
+	width:338px;
+	height:105px;
+	float:right;
+	clear:both;
+	border:solid 1px #49474a;
+	background-color:transparent;
+	color:#49474a;
+	margin:5px;
+	}
+	
+.submit {
+	width:98px;
+	height:37px;
+	float:right;
+	clear:both;
+	background-image:URL('/design/submit.png');
+	background-repeat:no-repeat;
+	background-color:transparent;
+	border:none;
+	color:#fff;
+	}
+	
+#kontakt_info  {
+	width:325px;
+	margin-left:65px;
+	float:left;
+	}
+	
+#kontakt_info i {
+	font-style:normal;}
+	
+	
+#kontakt_info p {
+	color:#fff;
+	font-size:12px;
+	float:left;
+	margin-left:15px;
+	
+	}
+	
+#poslato {
+	width:930px;
+	height:580px;
+	border:solid 1px #fff;
+	margin:50px auto;
+	padding:10px 30px;
+	color:#fff;
+	background-image:URL('/design/bg_logo.jpg');
+	background-repeat:no-repeat;
+	background-position:center
+	}
+	
+	
+#poslato p{
+	width:650px;
+	padding-top:350px;
+	}
+	
+#poslato img {
+	margin:100px 200px;
+	float:left;
+	clear:both;
+	}
+	
+#poslato p {
+	float:left;
+	clear:both;
+	margin:10px 200px;
+	}
+
+
+.galerija {
+	
+	position:absolute;
+		bottom:20px;
+		left:60px;
+	height:auto;
+	clear:both;
+	}
+	
+.galerija img {
+	float:left;
+	
+	padding:5px;
+	}
+
+
+#footer {
+	position:absolute;
+		bottom:0px;
+		left:0px;
+	width:1030px;
+	height:47px;
+	background-image:URL('/design/footer.jpg');
+	background-repeat:repeat-x;
+	}
+	
+	/*S3C*/
+	
+
+            #s3slider { 
+			   width: 435px; /* important to be same as image width */ 
+			   height: 129px; /* important to be same as image height */
+			   position:relative;
+		
+			   overflow: hidden;
+			   list-style:none;
+			 
+					   
+			}
+			
+			#s3slider li {
+				padding:0px;
+				margin:0px;}
+			
+			.s3sliderImage {
+				width:435px;
+				   height: 129px;
+				
+				float:left;
+				list-style:none;
+				padding:0px;
+				margin:0px;
+				position:absolute;
+					right:0px;
+					bottom:-1px;
+				}
+				
+			/**/	
+			
+     

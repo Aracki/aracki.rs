@@ -1,0 +1,12 @@
+.ocp_gornji_body {margin: 0px; background-color: #363636; background-image: url(../img/gornji_2/bg/bg_tekstura.gif)}
+
+.ocp_gornji_table { width:100%; margin: 0px; padding: 0px; border-width:0px; border-collapse: collapse;}
+.ocp_gornji_table_desni {float: right;}
+	.ocp_gornji_td_desni {padding: 0px 6px 0px 0px; margin:0px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #D7D7D7; letter-spacing: 0.02em; text-align: right; white-space: nowrap;}
+.ocp_gornji_td_help {width: 41px; padding: 0px; margin:0px; text-align: right;}
+.ocp_gornji_td_levi {vertical-align: top; margin: 0px; padding: 0px;}
+
+.ocp_gornji_title {padding: 5px; font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 15px; font-weight: normal; color: #D9D9D9; white-space: nowrap;}
+.ocp_gornji_imeusera {font-weight: bold;}
+a.ocp_gornji_td_link {color: #D7D7D7; text-decoration: none;}
+a.ocp_gornji_td_link:hover {color: #FFFFFF;}

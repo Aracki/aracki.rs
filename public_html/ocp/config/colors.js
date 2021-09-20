@@ -1,0 +1,1 @@
+var colorsArr = new Array("#014753", "#70CCE2","#FFFFFF","#000000");

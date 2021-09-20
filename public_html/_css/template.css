@@ -1,0 +1,9 @@
+/*template styles*/
+#template { margin: 5px 5px 5px 5px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size:11px; }
+#content { }
+#left { float: left; width: 0px}
+#main { float: left; width: 700px}
+#right { float: left; width: 170px}
+#copyright { clear:both; color: #333333; line-height: 16px; margin: 0; padding:3px; }
+#omnicom { clear:both; color: #333333; line-height: 16px; margin: 0; padding:3px; }
+/*****************************/

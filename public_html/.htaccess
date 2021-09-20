@@ -1,0 +1,9 @@
+
+
+
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?page=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/([0-9]+)/([a-zA-Z0-9_-]+)$ index.php?page=$1&id=$2&kat=$3
+
+RewriteRule (\d+)\.html /code/navigate.php?Id=$1 [L,QSA]
+RewriteRule ^([^\d]*)([0-9]+).html$ /code/navigate.php?Id=$1 [L,QSA]

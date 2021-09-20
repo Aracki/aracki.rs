@@ -1,0 +1,188 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+
+body, td, input, select, textarea {
+	font:11px Tahoma, sans-serif;
+}
+
+
+hr { 
+	clear:both; 
+	border: 0; 
+}
+
+h1 {
+	margin:0;
+	font-size:100%;
+}
+
+
+#opts {
+	background:black;
+	color:white;
+	padding:5pt;
+}
+
+#opts td {
+	padding:0 0.5pt;
+	font-size:10px;
+}
+
+#opts td.sep {
+	padding-right:3pt;
+	padding-left:3pt;
+	color:black;
+}
+	
+#opts input, #opts select {
+	font-size:10px;
+	background:black;
+	color:white;
+	border:1px solid #d0d0d0;
+}
+#opts img {
+	width:9px; 
+	height:9px;
+	border:1px solid black;
+	cursor:pointer;	
+	vertical-align:bottom;
+}
+#updateBtn {
+	font-size:10px;
+	margin-left:1em;
+	font-weight:bold;
+}
+#opts input.cb {
+	width:9px;
+	height:9px;
+	border:0;
+}
+#chs_w, #chs_h { 
+	width:2em; 
+	text-align:right;
+}
+
+
+#urlText {
+	padding:5pt;
+	background: #c0c0c0;
+}
+
+#urlText input {
+	width:99%;
+	padding:1pt;
+}
+
+
+#content {
+	padding:5pt;
+}
+
+#chtt {
+	font-weight:bold;
+	
+	height:3em;
+	border:0;
+	overflow-y:auto; 	
+}
+	
+#sheet { 
+	overflow-x:auto; 
+	padding:0.5em;
+	padding-bottom:3em;
+}
+#tab {
+	table-layout:fixed;
+	border-collapse: collapse; 
+}
+#tab td, #tab th {
+	width:10em;
+	padding:0.2em; 
+	border:1px solid #303030;
+}
+#tab td {
+	text-align:right; 
+}
+#tab th {
+	text-align:left;
+	background-color:#d0d0d0;
+	white-space:nowrap;
+}
+#tab td input { 
+	width:90%;
+	text-align:right; 
+	border:0;
+}
+#tab th input { 
+	width:5em;
+	font-weight:bold;
+	border:0;
+	background-color:#d0d0d0;	
+}
+
+#tab img {
+	width:7px; 
+	height:7px;
+	border:1px solid black;
+	cursor:pointer;	
+}
+.colInsert, .rowInsert {
+	background:url(bp.gif) center  no-repeat;
+}
+.colDelete, .rowDelete {
+	background:url(bx.gif) center center no-repeat;
+}
+
+#tab .nob {
+	border:0;
+	background: white;
+}
+
+
+#colorPicker { 
+	display:none; 
+	background:black;
+	border:1px solid black;
+	position:absolute; 
+}
+#colorPicker div {
+	width:180px; 
+}
+#colorPicker p { 
+	width:10px; 
+	height:10px; 
+	float:left; 
+	cursor:pointer;
+	margin:0;
+}
+
+#chart {
+	padding:3em;
+	border:1px solid #e0e0e0;
+	float:left;	
+	cursor:pointer;
+}
+
+#chart img {
+
+}
+
+#foot {
+	clear:both;
+	padding:5pt;
+	margin-top:5em;
+	border-top:1px solid #e0e0e0;
+}
+
+
+
+#debug{
+    position:absolute;
+    right:0;
+    bottom:0;
+    border:1px solid #ccc;
+    padding:10px;
+}
