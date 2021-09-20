@@ -92,7 +92,7 @@ $(document).ready(function() {
                      <ul class="tabs">
                    
                                 <li><a href="#tab2">logotipi</a></li>            
-                                 <li><a href="#tab3">prospekti</a></li> 
+                                 <li><a href="#tab3">prospekti/plakati</a></li> 
                                   <li><a href="#tab4">plakati</a></li> 
                                    <li><a href="#tab5">kalendari</a></li>
                                    <li><a href="#tab6">bilbordi</a></li>
