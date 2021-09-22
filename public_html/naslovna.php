@@ -257,36 +257,12 @@ $(document).ready(function() {
 		<!--li></li-->  
         		
                 					 <div id="tab13" class="tab_content">
-                                     				<div id="kontakt">
-                                        
-                                                <form method="post" action="/mail.php">
-                                                                                                	<div id="inputi">
-                                                    <p>Ime i prezime</p>
-                                                    <input class="input" type="text" name="ime" />
-                                                    <p>Telefon</p>
-                                                    <input class="input" type="text"  name="telefon" />
-                                                    <p>mail</p>
-                                                    <input class="input" type="text" name="mail" />
-                                                    </div>
-														<div id="textarea">                                                        
-                                                        <p>Komentar</p>
-                                                        <textarea class="textarea" name="poruka"></textarea>
-                                                    	</div>
-                                                    <input type="hidden" name="_submit_check" value="1"/>
-                                                    <input class="submit" type="submit"  value="Pošalji " />
-                                                
-                                                </form>
-                                              
-												
-											
-                                                <div class="clear"></div>
-											</div>
                                             
                                             		<div id="kontakt_info">
                                                     
                                                     	<p>Aracki dizajn studio <br>
                                                         11000 Beograd<br>
-                                                        Borivoja Stevanoviæa 9 </p>
+                                                        Borivoja Stevanovića 9 </p>
                                                         
                                                           <p><i>Mob:</i> 063 27 00 28<br>
                                                         <i>Mob:</i> 063 39 55 36<br>
