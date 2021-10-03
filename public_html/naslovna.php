@@ -175,7 +175,7 @@ $(document).ready(function() {
  	
     		  <ul style="margin-bottom:50px;" class="tabs">
                                 <!-- <li><a href="#tab10">fotografija kao hobi</a></li>  -->            
-                                 <a class="link" target="_blank"  href="/monografija/default.html">porodična monografija</a>
+                                 <a class="link" target="_blank"  href="/monografija/monografija.pdf">porodična monografija</a>
     
     		</ul>
     
