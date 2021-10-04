@@ -92,8 +92,8 @@ $(document).ready(function() {
                      <ul class="tabs">
                    
                                 <li><a href="#tab2">logotipi</a></li>            
-                                 <li><a href="#tab3">Prospekti/plakati</a></li> 
-                                   <li><a href="#tab5">Kalendari</a></li>
+                                 <li><a href="#tab3">prospekti/plakati</a></li> 
+                                   <li><a href="#tab5">kalendari</a></li>
                                    <li><a href="#tab6">bilbordi</a></li>
                                    <li><a href="#tab7">3D promo predmeti</a></li>
                                    <li><a href="#tab8">knjige/CD prezentacije</a></li>
