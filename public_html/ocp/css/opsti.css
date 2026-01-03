@@ -1,0 +1,48 @@
+/*editor styles*/
+.editor_body { padding:0px; margin: 0px;  background: #FFFFFF; text-align: left;}
+.editor_body ul, .editor_body ol { margin-left: 20px !important;} /* prikazuje bullets u editoru */
+.editor_source {font-family:Courier New; font-size: 9pt; color: #000000;  background: #EFEFEF;}
+
+a.ocp_link { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #0088CC; text-decoration: underline;}
+a.ocp_link:hover { color: #006EA6; text-decoration: none;}
+
+/*GLAVNI pocetak*/
+.ocp_body { margin: 0; padding: 0; background-image: url("../img/opsti/opcije/bg/bg_main.gif");}
+
+.ocp_text { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #666666;}
+/*GLAVNI kraj*/
+
+/*DIV U KOME SE SVE NALAZI I KOJI DAJE SIRINU pocetak*/
+#ocp_main_table {width: 606px; margin: 0px; padding: 0px; border-width: 0px;}
+#ocp_main_edit_bloka_table { width: 100%; margin: 0px; padding: 0px; border-width: 0px; clear:both;}
+/*DIV U KOME SE SVE NALAZI I KOJI DAJE SIRINU kraj*/
+
+/*FORME pocetak*/ 
+form {display: inline;}
+
+.ocp_forma_malecna { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333333; width: 28px; border: 1px solid #999999;}
+.ocp_forma_mala { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333333; width: 40px; border: 1px solid #999999;}
+
+.ocp_forma_srednja { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333333; width: 100%; border: 1px solid #999999;}
+.ocp_forma_edit_bloka_sadrzaj { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333333; width: 100%; height: 150px; border: 1px solid #999999;}
+
+.ocp_dugmici_td_levi {padding: 0px 6px 0px 0px;}
+.ocp_dugmici_td_desni_2 { width:47px; padding: 0px 0px 0px 2px; text-align: right;}
+.ocp_dugmici_td_desni_3 { width:70px; padding: 0px 0px 0px 2px; text-align: right;}
+
+.ocp_dugme_table { width: 100%; border-width: 0px; border-collapse: collapse;}
+.ocp_dugme_td { height: 40px; text-align: center; padding: 5px 0px 10px 0px;}
+/*.ocp_dugme { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #333333; background-color: #FFFFFF; width: 80px; height: 30px; border: 2px solid #BFBFBF;}*/
+/*FORME kraj*/
+
+/*KONTROLE I MALE IKONE pocetak*/ 
+.ocp_kontrola { margin: 1px 0px 1px 3px; vertical-align: middle; border-width: 0px;}
+.ocp_mala_ikona { padding-left: 4px; padding-right: 4px; vertical-align: bottom; border-width: 0px;}
+/*KONTROLE I MALE IKONE kraj*/
+
+/*scroll barovi*/
+* html .ocp_body, * html .ocp_scroll {
+scrollbar-base-color: #D8D8D8; scrollbar-track-color: #EAEAEA; scrollbar-face-color: #D5D5D5; 
+scrollbar-highlight-color: #D5D5D5; scrollbar-3dlight-color: #fff; 
+scrollbar-darkshadow-color: #898989; scrollbar-shadow-color: #fff; scrollbar-arrow-color: #666;)
+

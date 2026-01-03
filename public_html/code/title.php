@@ -1,0 +1,1 @@
+<title><?php echo menu_getStraHtmlTitle();?></title>

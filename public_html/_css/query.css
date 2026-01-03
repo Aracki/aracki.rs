@@ -1,0 +1,35 @@
+#query ul
+{
+	list-style:				none;
+	padding:				0px 0px 0px 20px;
+	margin:					0px;
+}
+
+#query ul li h3, #query ul li h3 a, #query ul li h3 a:visited
+{
+	font-size:				21px;
+	line-height:			28px;
+	font-family:			Arial Narrow, Arial, Tahoma, Verdana;
+	font-weight:			normal;
+	color:					#333;
+}
+
+#query ul li .content
+{
+	padding:				0px 0px 0px 20px;
+	margin:					0px;
+	font-size:				10px;
+	line-height:			13px;
+	color:					#333;
+}
+
+#query ul li .content a, #query ul li .content a:visited
+{
+	color:					#ff6600;
+	text-decoration:		none;
+}
+
+#query ul li .content a:hover
+{
+	text-decoration:		underline;
+}

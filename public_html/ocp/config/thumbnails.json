@@ -1,0 +1,22 @@
+[
+	{
+		"name":"default",
+		"sizes":[
+			{
+				"width":"100",
+				"height":"100",
+				"name":"100x100"
+			},
+			{
+				"width":"200",
+				"height":"200",
+				"name":"200x200"
+			},
+			{
+				"width":"300",
+				"height":"300",
+				"name":"300x300"
+			}
+		]
+	}
+]

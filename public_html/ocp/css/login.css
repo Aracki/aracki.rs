@@ -1,0 +1,12 @@
+.ocp_login_body {margin: 0; padding: 0; background: #f7f5f5 url(../img/login/bg_tekstura.gif);}
+.ocp_login_table {width: 100%; border-collapse: collapse;}
+	.ocp_login_table td {padding: 2px;}
+.ocp_opcije_tekst1 {padding-right: 5px; text-align: right; font-family: Verdana, Arial, Georgia, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #333; line-height: 12px; }
+
+.ocp_forma { padding-left: 2px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333; border: 1px solid #999;}
+.ocp_dugme {width: 80px; height: 30px; color: #333; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; background-color: #ededed; border: 1px solid #999;}
+
+.ocp_login_td_1 {vertical-align: bottom; text-align: center; vertical-align: bottom; text-align: center; background: #bdced7 url(../img/login/bg_1.gif) bottom; border-bottom: 1px solid #a3aeb3; height: 235px; }
+	.ocp_login_td_1 div {width: 300px; margin: 4px; text-align: right;} 
+	.ocp_login_td_1 div img {padding-left: 80px;}
+.ocp_login_td_2 { height: 104px; border-bottom: 2px solid #363636; background: #d9d8d8 url(../img/login/bg_2.gif) bottom; }

@@ -1,0 +1,4 @@
+<link>
+	<urlLinka inputType="intLink" root="/upload" label="Link address"></urlLinka>
+	<labela inputType="textarea" label="Link label"></labela>
+</link>

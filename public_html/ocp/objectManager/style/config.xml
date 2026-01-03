@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ocpcfg>
+	<formXsl>/ocp/objectManager/style/input.xsl</formXsl>
+	<idenXsl>/ocp/objectManager/style/iden.xsl</idenXsl>
+	<subformDisplayXsl>/ocp/objectManager/style/subform/display.xsl</subformDisplayXsl>
+	<subformIdenXsl>/ocp/objectManager/style/subform/iden.xsl</subformIdenXsl>
+	<subformXsl>/ocp/objectManager/style/subform/input.xsl</subformXsl>
+</ocpcfg>

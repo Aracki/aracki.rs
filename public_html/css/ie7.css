@@ -1,0 +1,29 @@
+#formPretraga {
+position:relative;
+}
+
+.transBox .entry  {
+margin:0 32px -220px 0; 
+padding: 0;
+position:absolute;
+top:0px;
+left:0px;
+}
+
+.mid {
+left:365px !important;
+}
+
+#ie_fix1 {
+left: 0px;
+ 
+}
+
+#ie_fix2 {
+left: 410px !important;
+}
+
+p.translate input {
+margin-top:85px
+}
+/*.transBox  .mid.entry  {margin:0 32px -220px 0; padding: 0;}*/

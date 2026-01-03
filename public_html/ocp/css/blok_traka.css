@@ -1,0 +1,18 @@
+/*OPSTI  pocetak*/
+.ocp_blok_traka_table { clear: both; width: 100%; height: 34px; border-width: 0px; border-top: 2px solid #666666; border-collapse: collapse; background-image:  url("../img/opsti/blokovi/blok_traka/blok_traka_bg.gif"); background-repeat: repeat-x; }
+.ocp_blok_traka_td { padding: 0px; margin: 0px; padding-left: 2px;}
+.ocp_blok_traka_td_info_desni { padding: 0px; text-align: right; padding: 0px 7px 0px 0px;}
+.ocp_blok_traka_td_tekst { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #333333; font-weight: bold; padding:  0px 0px 2px 0px; white-space: nowrap;}
+.ocp_blok_traka_td_desno_tekst { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #333333; font-weight: normal; padding: 0px 0px 2px 0px; white-space: nowrap;}
+.ocp_blok_traka_bold  { color: #666666; font-weight: normal;}
+.ocp_blok_traka_ikona  { margin: 0px 2px 0px 0px;}
+.ocp_blok_traka_crtka { margin: 0px 2px 0px 2px; }
+.drzac_dugmica {margin-left: 5px; margin-bottom: 1px;}
+.drzac_dugmica_desni {float: right; margin-left: 5px; margin-bottom: 1px;}
+/*OPSTI  kraj*/
+
+/*POMERANJE BLOKA pocetak*/
+.ocp_blok_traka_table_pomeri { width: 100%; height: 34px; border-width: 0px; border-top: 2px solid #666666; border-collapse: collapse; background-color: #D93300;}
+.ocp_blok_traka_tekst_pom  { font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #999999; font-weight: bold; padding-left: 5px; text-transform: uppercase;}
+/*POMERANJE BLOKA kraj*/
+

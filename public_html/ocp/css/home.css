@@ -1,0 +1,12 @@
+.ocp_home_dobrodosli { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #333; padding: 5px; padding-left: 10px;}
+
+.ocp_home_links_holder {padding: 15px; color: #999; text-align: center; background: url(../img/home/bg_shortcuti.gif) repeat-x left bottom;}
+.ocp_home_links_holder a img{ border: none; margin-right: 6px;}
+
+a.ocp_home_v_link { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; color: #0088cc; }
+a.ocp_home_v_link:hover { text-decoration: none; color: #0077b3;}
+
+.ocp_home_naziv {white-space: nowrap;}
+.ocp_home_donji_ram {border-bottom: 1px solid #ccc;}
+
+.ocp_home_wrapper{border: 2px solid #333;}

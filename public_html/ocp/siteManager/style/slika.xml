@@ -1,0 +1,8 @@
+<slika>
+	<urlSlike inputType="fileImage" root="/upload/images" label="Image source"></urlSlike>
+	<signature inputType="textarea"  label="Image caption"></signature>
+	<border inputType="radio" listName="Border" label="Image border"></border>
+	<alignment inputType="radio" listName="Alignment" label="Alignment"></alignment>
+	<width inputType="textBox" label="Image width"></width>
+	<height inputType="textBox" label="Image height"></height>
+</slika>
