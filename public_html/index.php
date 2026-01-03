@@ -1,4 +1,4 @@
-<? include 'engine/function.php';
+<?php include 'engine/function.php';
 include_once("analyticstracking.php");
 ?>
 
@@ -7,8 +7,8 @@ include_once("analyticstracking.php");
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1250" />
 <title>Aracki Studio za Graficki dizajn</title>
-<meta name="description" content="Web dizajn, Vizuelni identitet, Grafički dizajn, Dizajn ambalaže, Logo dizajn, fotografija" /> 
-<meta name="keywords" content="Dizajn, Studio, Aracki, grafika, web, logo, logotip, identitet, vizuelni, ambalaža, , katalog, brošura, letak, propaganda, corporate identity" /> 
+<meta name="description" content="Web dizajn, Vizuelni identitet, Grafiďż˝ki dizajn, Dizajn ambalaďż˝e, Logo dizajn, fotografija" /> 
+<meta name="keywords" content="Dizajn, Studio, Aracki, grafika, web, logo, logotip, identitet, vizuelni, ambalaďż˝a, , katalog, broďż˝ura, letak, propaganda, corporate identity" /> 
 
 <meta name="Author" content="Canatlantic d.o.o, www.canatlantic.com">
 

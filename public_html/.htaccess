@@ -1,9 +1,24 @@
 
+RewriteEngine On
+RewriteBase /
 
+# Don't rewrite requests for actual files and directories
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
 
+# Skip rewriting for static asset directories
+RewriteCond %{REQUEST_URI} !^/foto/
+RewriteCond %{REQUEST_URI} !^/design/
+RewriteCond %{REQUEST_URI} !^/gfx/
+RewriteCond %{REQUEST_URI} !^/images/
+RewriteCond %{REQUEST_URI} !^/js/
+RewriteCond %{REQUEST_URI} !^/css/
 
 RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?page=$1
 RewriteRule ^([a-zA-Z0-9_-]+)/([0-9]+)/([a-zA-Z0-9_-]+)$ index.php?page=$1&id=$2&kat=$3
 
 RewriteRule (\d+)\.html /code/navigate.php?Id=$1 [L,QSA]
 RewriteRule ^([^\d]*)([0-9]+).html$ /code/navigate.php?Id=$1 [L,QSA]
+
+

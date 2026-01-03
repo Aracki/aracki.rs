@@ -1,4 +1,4 @@
-<? include 'engine/function.php';
+<?php include 'engine/function.php';
 include_once("analyticstracking.php");
 ?>
 
@@ -120,7 +120,7 @@ $(document).ready(function() {
 									
                                     
                                     	<div style="margin:left:50px; top: -30px;" class="galerija">
-											<?	view_image(100,100,'logotipi');    ?>             
+											<?php view_image(100,100,'logotipi');    ?>             
                                     <div class="clear"></div>
 											</div>		
                                                 
@@ -129,7 +129,7 @@ $(document).ready(function() {
 									</div>
                							 <div id="tab3" class="tab_content">
                                           	<div style="margin-left:40px;" class="galerija">   
-                                             	<?	view_image(70,70,'prospekti');    ?>       
+                                             	<?php view_image(70,70,'prospekti');    ?>       
                                              </div>
                                                
                             			</div>	
@@ -137,31 +137,31 @@ $(document).ready(function() {
                                         	
                                             		 <div id="tab5" class="tab_content">
                                            				<div style="margin-left:80px;" class="galerija">   
-                                             	  	<?	view_image(70,70,'kalendari') ;   ?>       
+                                             	  	<?php view_image(70,70,'kalendari') ;   ?>       
                                              </div>
                                                     </div>	
                                                     
                                                     	 <div id="tab6" class="tab_content">
                                            					<div style="margin-left:163px;" class="galerija">   
-                                             	<?	view_image(70,70,'bilbordi') ;   ?>      
+                                             	<?php view_image(70,70,'bilbordi') ;   ?>      
                                              </div>
                                                     	</div>	
                                                         
                                                              <div id="tab7" class="tab_content">
                                                             	<div style="left:60px;" class="galerija">   
-                                             	<?	view_image(70,70,'3d') ;   ?>       
+                                             	<?php view_image(70,70,'3d') ;   ?>       
                                              </div>
                                                        		 </div>	
                                                              
                                                              		 <div id="tab8" class="tab_content">
                                                                      <div style="margin-left:200px;" class="galerija">   
-                                             	<?	view_image(70,70,'knjige') ;   ?>        
+                                             	<?php view_image(70,70,'knjige') ;   ?>        
                                              </div>
                                                                     </div>	
                                                                     
                                                                     		 <div id="tab9" class="tab_content">
                                            										<div style="margin-left:40px;" class="galerija">   
-																					<? view_image(70,70,'ilustracije') ;   ?>       
+																					<?php view_image(70,70,'ilustracije') ;   ?>       
                                                                                  </div>
                                                                             </div>	
                                                                           
@@ -199,7 +199,7 @@ $(document).ready(function() {
                                           
                                                
                                                <div class="galerija">
-											<?	view_image(70,70,'beograd');    ?>             
+											<?php view_image(70,70,'beograd');    ?>             
                                     
 											</div>	
                             			</div>	
@@ -209,7 +209,7 @@ $(document).ready(function() {
                                               
                                                
                                               <div style="margin-left:40px;" class="galerija">
-											<?	view_image(70,70,'vojvodina');    ?>             
+											<?php view_image(70,70,'vojvodina');    ?>             
                                     			<div class="clear"></div>
 											</div>	
                             				</div>	
@@ -218,7 +218,7 @@ $(document).ready(function() {
                                               
                                                
                                                 <div class="galerija">
-											<?	view_image(70,70,'biljke');    ?>             
+											<?php view_image(70,70,'biljke');    ?>             
                                     
 											</div>	
                             			</div>	
@@ -226,7 +226,7 @@ $(document).ready(function() {
                                         <div id="tab15" class="tab_content">
                                           
                                                 <div class="galerija">
-											<?	view_image(70,70,'ljudi');    ?>             
+											<?php view_image(70,70,'ljudi');    ?>             
                                     
 											</div>	
                             			</div>	
@@ -235,7 +235,7 @@ $(document).ready(function() {
                                             
                                                
                                                 <div class="galerija">
-											<?	view_image(70,70,'priroda');    ?>             
+											<?php view_image(70,70,'priroda');    ?>             
                                     
 											</div>	
                             			</div>	
