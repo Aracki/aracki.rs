@@ -5,7 +5,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-include 'engine/function.php';
+require_once(__DIR__ . '/engine/function.php');
 
 $folder = isset($_GET['folder']) ? $_GET['folder'] : 'prospekti';
 
