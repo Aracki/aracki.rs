@@ -62,7 +62,7 @@ function data_entry($entry)
 
 	{
 	
-	$zabranjeniznaci=array(',','.','\'','\\','/',' ','š','ð','è','æ','ž','(',')','&');
+	$zabranjeniznaci=array(',','.','\'','\\','/',' ','ï¿½','ï¿½','ï¿½','ï¿½','ï¿½','(',')','&');
 	$noviznaci=array('','','','-','-','-','s','dj','c','c','z','','','');
 	
 	$naziv=strtolower($entry);
@@ -111,15 +111,67 @@ function view_image($width,$height,$root)
 		
 			
 					$files = array();
-			$dir = opendir('foto/'.$root.'/thumb/');
-			while(($file = readdir($dir)) !== false)
-			{
-					 if($file !== '.' && $file !== '..' && !is_dir($file))
-					 {
-					   $files[] = $file;
-					 }
+			// Try multiple path resolution methods for compatibility across different servers
+			$thumbDir = null;
+			
+			// Method 1: DOCUMENT_ROOT (most common)
+			if (isset($_SERVER['DOCUMENT_ROOT']) && $_SERVER['DOCUMENT_ROOT'] != '') {
+				$testPath = $_SERVER['DOCUMENT_ROOT'].'/foto/'.$root.'/thumb/';
+				$testPath = str_replace('\\', '/', $testPath);
+				if (is_dir($testPath)) {
+					$thumbDir = $testPath;
+				}
 			}
-				closedir($dir);
+			
+			// Method 2: Relative to this script (engine/function.php -> public_html/foto/...)
+			if (!$thumbDir) {
+				$testPath = dirname(dirname(__FILE__)).'/foto/'.$root.'/thumb/';
+				$testPath = str_replace('\\', '/', $testPath);
+				if (is_dir($testPath)) {
+					$thumbDir = $testPath;
+				}
+			}
+			
+			// Method 3: Try realpath for absolute resolution
+			if (!$thumbDir) {
+				$testPath = realpath(dirname(dirname(__FILE__)).'/foto/'.$root.'/thumb/');
+				if ($testPath && is_dir($testPath)) {
+					$thumbDir = $testPath;
+				}
+			}
+			
+			// Method 4: Try relative path from current working directory (fallback)
+			if (!$thumbDir) {
+				$testPath = getcwd().'/foto/'.$root.'/thumb/';
+				$testPath = str_replace('\\', '/', $testPath);
+				if (is_dir($testPath)) {
+					$thumbDir = $testPath;
+				}
+			}
+			
+			// Open directory and read files
+			if ($thumbDir && is_dir($thumbDir)) {
+				$dir = opendir($thumbDir);
+				if ($dir !== false) {
+					while(($file = readdir($dir)) !== false)
+					{
+						 if($file !== '.' && $file !== '..' && !is_dir($thumbDir.$file))
+						 {
+						   $files[] = $file;
+						 }
+					}
+					closedir($dir);
+				}
+			} else {
+				// Debug: Output error if directory not found (remove in production)
+				if (isset($_GET['debug'])) {
+					echo '<!-- DEBUG: thumbDir not found. Tried: ';
+					if (isset($_SERVER['DOCUMENT_ROOT'])) echo 'DOCUMENT_ROOT='.$_SERVER['DOCUMENT_ROOT'].'; ';
+					echo 'dirname='.dirname(dirname(__FILE__)).'; ';
+					echo 'getcwd='.getcwd().'; ';
+					echo 'root='.$root.' -->';
+				}
+			}
 				sort($files);
 				
 				
